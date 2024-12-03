@@ -48,6 +48,8 @@
   #home {
     margin-top: 190px;
     width: 300%;
+    display: block;
+    min-height: 130vh;
   }
   #home .content {
     margin: 5% 0;
@@ -69,7 +71,7 @@
     font-size: 200%;
   }
   #home .oths {
-    display: none;
+    margin-left: 30%;
   }
   #product {
     width: 300%;

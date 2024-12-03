@@ -53,6 +53,8 @@
     #home {
         margin-top: 190px;
         width: 300%;
+        display: block;
+        min-height: 130vh;
         .content {
             margin: 5% 0;
             padding-left: 0%;
@@ -71,29 +73,14 @@
                 }
             }
         }
-        .oths {
-            display: none;
+        .oths  {
+            margin-left: 30%;
         }
     }
-    //     .box {
-    //         display: grid;
-    //         grid-template-columns: auto auto ;
-    //         .imagecontent {
-    //             height:90%;
-    //             width: 100%;
-    //             margin: 5%;
-    //             .content h2 {
-    //                 margin-top: 20%;
-    //                 padding: 5%;
-    //                 font-size: 40px;
-    //             }
-    //         }
-    //     }
-    // }
+
     #product {
         width: 300%;
         height: max-content;
-        // margin: 15% 0;
 
         .mainpart {
             h2 {
@@ -169,6 +156,7 @@
                 }
             }
         }
+        
     
     }
     #competition {
